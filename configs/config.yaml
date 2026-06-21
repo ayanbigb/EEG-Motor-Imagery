@@ -1,0 +1,15 @@
+dataset:
+  path: data/train_data.npz  # expected: dict with 'X' and 'y' or adjust loader
+  sample_rate: 250
+  n_channels: 22
+
+training:
+  epochs: 10
+  batch_size: 32
+  lr: 1e-3
+  seed: 42
+
+model:
+  name: simple_cnn
+  channels: 22
+  timepoints: 1000

@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+venv/
+env/
+.env
+data/
+*.pth
+*.pt
+*.npz
+*.egg-info/
+dist/
+*.png
+*.fif
+*.fif.gz
+.DS_Store
